@@ -1,0 +1,17 @@
+{
+  "changes": [
+    {
+      "after": "GET /health",
+      "before": null,
+      "comparability": "proven",
+      "detail": "Endpoint GET /health was added.",
+      "method": "get",
+      "path": "/health",
+      "rationale": "No existing client calls it.",
+      "rule_id": "R-009",
+      "severity": "compatible",
+      "target": null,
+      "type": "endpoint_added"
+    }
+  ]
+}

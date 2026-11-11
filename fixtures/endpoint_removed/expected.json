@@ -1,0 +1,17 @@
+{
+  "changes": [
+    {
+      "after": null,
+      "before": "DELETE /users/{id}",
+      "comparability": "proven",
+      "detail": "Endpoint DELETE /users/{id} was removed.",
+      "method": "delete",
+      "path": "/users/{id}",
+      "rationale": "Clients calling it receive 404.",
+      "rule_id": "R-001",
+      "severity": "breaking",
+      "target": null,
+      "type": "endpoint_removed"
+    }
+  ]
+}
